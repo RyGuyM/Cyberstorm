@@ -8,6 +8,7 @@ Temp
 *.user
 *.pidb
 *.userprefs
+*.DS_Store
 
 Library/cache/*
 Library/metadata/*
