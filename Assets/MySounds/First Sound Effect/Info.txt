@@ -1,0 +1,11 @@
+Door Open/Door Close -> Used for gate.
+	Create an AudioSource on the bema5 (child of LaserGate), and add the LaserGate Script. Add  LaserGateSound
+	script in the LaserGate Script
+
+Gunshot --> Put an AudioSource onto Player. Set MinDistance to 49. Add in trigger line in PlayerAttack
+
+AttackSoundHandler --> Create a GameObject, attach to player. Attach an AudioSource and add the AttackSoundHandler
+			script. Then, put KyleSound1 in Decoy, and ExplodeMini in Grenade
+
+Helicopter --> Basic, put in AudioListener, make it loop, set mindistance to 15
+
